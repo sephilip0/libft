@@ -6,18 +6,11 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/24 18:24:09 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/25 12:52:23 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:52:01 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-// HOW CAN WE TEST THIS?
-/*
-void	ft_nodefree(void *node)
-{
-	free(node);
-}*/
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
@@ -26,6 +19,7 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 	(*del)(lst->content);
 	free(lst);
 }
+
 /*
 int	main()
 {

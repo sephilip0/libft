@@ -6,7 +6,7 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/02 21:26:03 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/12 17:43:30 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:11:50 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ void	*ft_memset(void *s, int c, size_t len)
 	}
 	return (s);
 }
+
 /*
 int	main()
 {
@@ -33,23 +34,4 @@ int	main()
 
 	printf("%s\n", (char *)ft_memset(str, 'l', 5));
 	return (0);
-}*/
-/*
-int	main()
-{
-	void	*ptr;
-	char	*str;
-	int	len;
-
-	len = 0;
-// openned the space for 15 but only 9
-of them will be occupied later with stuff so lenght will be 9 same
-	ptr = malloc(15 * sizeof(char));
-	ptr = ft_memset(ptr, 49, 9);
-	str = (char *)ptr;
-	while (str[len])
-		len++;
-	str[9] = '9';
-	printf("%s\n len: %d", str, len);
-	return(0);
 }*/

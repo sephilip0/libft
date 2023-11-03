@@ -6,24 +6,11 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/24 18:53:33 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/25 15:57:02 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:52:25 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/*
-void	test(void *node)
-{
-	printf("REMOVED %s\n", (char *)node);
-	free(node);
-}
-
-void	lstdelone(t_list *lst, void (*del)(void *))
-{
-	(*del)(lst->content);
-	free(lst);
-}
-*/
 
 void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
@@ -39,6 +26,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 	}
 	*lst = 0;
 }
+
 /*
 int	main()
 {

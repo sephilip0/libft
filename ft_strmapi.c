@@ -6,18 +6,18 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 21:13:00 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/25 15:59:09 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:39:58 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 /*
 char	test(unsigned int i, char b)
 {
 	b = b - 32;
 	return (b);
 }*/
-//T:DO TEST WITHOUT TEMP S FOR THE CHAR CONST
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
@@ -40,6 +40,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	ret[i] = 0;
 	return (ret);
 }
+
 /*
 int	main()
 {

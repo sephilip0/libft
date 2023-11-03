@@ -6,18 +6,11 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/25 12:43:59 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/25 13:35:49 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:52:49 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/*
-void	test(void *node)
-{
-	char	s[] = "PAULO";
-
-	ft_memcpy(node, s, 6);
-}*/
 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {

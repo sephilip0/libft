@@ -6,12 +6,11 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 19:45:41 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/19 20:25:11 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:24:16 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
@@ -34,43 +33,16 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[len + i] = 0;
 	return (len + j);
 }
+
 /*
-size_t	ft_strlcat(char *dst, const char *src, size_t size)
-{
-	size_t	i;
-	size_t	j;
-	char	*pt_src;
-
-	pt_src = (char *)src;
-	i = 0;
-	while (i < size && *dst)
-	{
-		dst++;
-		i++;
-	}
-	if (i == size)
-		return (i + ft_strlen(src));
-// i == size of dst
-	j = 0;
-	while (pt_src[j])
-	{
-		if (j < size - i - 1)
-			*dst++ = pt_src[j];
-		j++;
-	}
-	*dst = 0;
-	return (j + i);
-}
-
 int	main()
 {
-	char	d[30]; memset(d, 0, 30);
+	char	d[30];
 	char	s[] = "AAAAAAAAA";
-	d[0] = 'B';
 
+	d[0] = 'B';
+	ft_memset(d, 0, 30);
 	printf("%d\n", ft_strlcat(d, s, 4));
-	printf("%d\n", strlen(s));
-	printf("%d\n", strcmp(d, "B"));
 	printf("%s\n", d);
 	printf("%s\n", s);
 	return (0);

@@ -6,7 +6,7 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/02 21:13:49 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/12 21:12:29 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:07:12 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ int	ft_isalpha(int c)
 {
 	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
+
 /*
 int	main()
 {

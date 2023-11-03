@@ -6,20 +6,17 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 22:33:46 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/20 22:48:46 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:46:31 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/*#include <errno.h>
-#include <fcntl.h>
-#include <stdio.h>
-#include <unistd.h>*/
 
 void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
+
 /*
 int	main()
 {

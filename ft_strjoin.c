@@ -6,7 +6,7 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 15:08:15 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/25 16:03:00 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:36:58 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,11 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(str, s2, len1 + len2 + 1);
 	return (str);
 }
+
 /*
-// STRLCAT works even if the first string is empty, (len != size)
 int	main()
 {
-	char	p1[] = "";
+	char	p1[] = "a";
 	char	p2[] = "bbbb";
 
 	printf("%s\n", ft_strjoin(p1, p2));

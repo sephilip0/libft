@@ -6,13 +6,13 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 20:36:41 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/20 21:06:35 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:39:13 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_n_lenght(int n)
+static int	ft_n_lenght(int n)
 {
 	int	i;
 
@@ -27,7 +27,7 @@ int	ft_n_lenght(int n)
 	return (i);
 }
 
-int	ft_mod(int n)
+static int	ft_mod(int n)
 {
 	if (n < 0)
 		n *= -1;

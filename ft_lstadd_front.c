@@ -6,7 +6,7 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/23 16:55:21 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/24 17:19:23 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:49:05 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	new->next = *lst;
 	*lst = new;
 }
+
 /*
 int	main()
 {

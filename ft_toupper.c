@@ -6,7 +6,7 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/02 21:27:29 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/04 16:48:22 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:24:37 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,11 @@ int	ft_toupper(int c)
 		return (c - 32);
 	return (c);
 }
+
 /*
 int	main()
 {
-	printf("%d\n", ft_toupper('Z'));
-	printf("%d\n", toupper('Z'));
+	printf("%d\n", ft_toupper('z'));
+	printf("%d\n", toupper('z'));
 	return (0);
 }*/

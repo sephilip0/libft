@@ -6,21 +6,11 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/25 13:09:19 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/25 15:51:30 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:53:05 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/*
-void	*ftest(void *node)
-{
-	return ((void *)"PAULO");
-}
-
-void	deltest(void *node)
-{
-	printf("REMOVE\n");
-}*/
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
@@ -43,6 +33,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (newlst);
 }
+
 /*
 int     main()
 {

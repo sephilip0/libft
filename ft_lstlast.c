@@ -6,7 +6,7 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/24 14:17:48 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/24 14:24:41 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:51:16 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ t_list	*ft_lstlast(t_list *lst)
 		lst = lst->next;
 	return (lst);
 }
+
 /*
 int     main()
 {

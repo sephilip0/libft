@@ -6,12 +6,11 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 17:16:27 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/18 16:07:07 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:30:33 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
 
 char	*ft_strnstr(const char *s1, const char *s2, size_t len)
 {
@@ -38,6 +37,7 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t len)
 	}
 	return (0);
 }
+
 /*
 int	main()
 {

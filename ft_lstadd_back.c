@@ -6,15 +6,11 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/24 15:47:46 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/25 15:59:40 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:51:44 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-// **lst endereco t_list
-// *lst pointer t_list
-// lst valor t_list?
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {

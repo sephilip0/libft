@@ -6,12 +6,11 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/03 12:55:52 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/12 21:39:24 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:32:34 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
 
 char	*ft_strrchr(const char *s, int c)
 {
@@ -31,6 +30,7 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
+
 /*
 int	main()
 {

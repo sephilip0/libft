@@ -6,11 +6,12 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/20 22:06:58 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/25 15:58:40 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:40:27 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 /*#include <unistd.h>
 
 void	test(unsigned int i, char* b)
@@ -31,6 +32,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
+
 /*
 int	main()
 {

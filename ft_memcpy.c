@@ -6,12 +6,11 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 16:45:12 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/12 17:38:35 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:18:30 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
+#include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
@@ -31,8 +30,8 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+
 /*
-	unsigned char??
 int	main()
 {
 	char	str[20];

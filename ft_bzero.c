@@ -6,11 +6,10 @@
 /*   By: sephilip <sephilip@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/01 13:58:10 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/12 17:39:01 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:14:32 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
 #include "libft.h"
 
 void	ft_bzero(void *s, size_t n)
@@ -26,34 +25,12 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-// n - 1 because the zero counts too. it goes from 0 to n - 1; KISS
 
-/*
-	or?
-	ft_memset(s, 0, n);
-*/
 /*
 int	main()
 {
-	void	*ptr;
-	char	*str;
-	int	len;
-	int	i;
+	char	str[] = "HELLO";
 
-	i = 0;
-	len = 10 + 1;
-	ptr = malloc(len * sizeof(char));
-	str = (char *)ptr;
-	while (i < len - 1)
-	{
-		printf("I:%d\n", i);
-		str[i] = 'H';	
-		i++;
-	}
-	str[i] = '\0';
-	printf("%s\n", str);
-	ft_bzero(ptr, len);
-	printf("poha: %s\n", (char *)ptr);
-	printf("%s\n", str);
-	return(0);
+	printf("%s\n", (char *)ft_bzero(str, 5);
+	return (0);
 }*/

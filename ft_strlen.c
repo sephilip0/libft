@@ -6,7 +6,7 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/01 14:11:40 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/19 14:55:50 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:10:26 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ size_t	ft_strlen(const char *s)
 		size++;
 	return (size);
 }
+
 /*
 int	main()
 {

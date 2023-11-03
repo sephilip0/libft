@@ -6,7 +6,7 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/02 21:33:22 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/02 21:36:17 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:25:03 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,11 @@ int	ft_tolower(int c)
 		return (c + 32);
 	return (c);
 }
+
 /*
 int	main()
 {
-	printf("%d\n", ft_tolower('a'));
-	printf("%d\n", tolower('a'));
+	printf("%d\n", ft_tolower('A'));
+	printf("%d\n", tolower('A'));
 	return (0);
 }*/

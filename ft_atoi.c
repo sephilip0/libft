@@ -6,7 +6,7 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/04 14:54:43 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/04 16:37:25 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:32:50 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ int	ft_atoi(const char *nptr)
 	}
 	return (sig * res);
 }
+
 /*
 int	main()
 {

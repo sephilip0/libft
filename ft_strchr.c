@@ -6,7 +6,7 @@
 /*   By: sephilip <sephlip@student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/02 21:38:38 by sephilip          #+#    #+#             */
-/*   Updated: 2023/09/12 21:36:40 by sephilip         ###   ########.fr       */
+/*   Updated: 2023/11/03 14:32:13 by sephilip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ char	*ft_strchr(const char *s, int c)
 		return (&p[i]);
 	return (0);
 }
+
 /*
 int	main()
 {
